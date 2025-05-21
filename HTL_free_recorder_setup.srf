@@ -1,0 +1,29 @@
+> SCAPS 3.3.09 ELIS-UGent: Version scaps3309.exe, dated 18-12-2020, 16:03:28
+> SCAPS Record Settings file, saved on 	19-05-2025 at 02:15:26
+> problem definition file loaded :
+> e:\PSC_HTL_free_opt_model.def
+> last saved: 	19-05-2025 at 02:12:41
+> 
+
+
+Recorder parameter   0 :
+
+recorder type :cell characterisctics
+recorder property :short circuit current
+
+Recorder parameter   1 :
+
+recorder type :cell characterisctics
+recorder property :open circuit voltage
+
+Recorder parameter   2 :
+
+recorder type :cell characterisctics
+recorder property :fill factor
+
+Recorder parameter   3 :
+
+recorder type :cell characterisctics
+recorder property :efficiency
+
+Recorder type flag : 	 1	 0	 0	 0	 0	 0	 0	 0

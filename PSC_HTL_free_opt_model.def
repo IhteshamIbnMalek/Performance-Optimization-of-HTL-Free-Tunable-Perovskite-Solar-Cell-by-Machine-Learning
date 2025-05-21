@@ -1,0 +1,154 @@
+> SCAPS 3.3.09 ELIS-UGent: Version scaps3309.exe, dated 18-12-2020, 16:03:28 Problem definition file
+> last saved by SCAPS: 	19-05-2025 at 02:12:40
+> 
+> 
+> Comments (to be) included in the def file
+> Can be edited by the user
+> 
+convergence
+
+recalculate mesh :  1 (0: fixed mesh, 1: adaptive mesh)
+maximum mesh changes per iteration step : 10
+maximum ratio between neighbouring points :  1.60e+00
+minimum ratio between neighbouring points :  1.05e+00
+generation limit :  1.00e+00 microA/cm2
+recombination limit :  1.00e-03 microA/cm2
+Mott-Schottky analysis epsilon of sheet side :  0	(left side = -1; right side = +1)
+Mott-Schottky analysis number of points :  3	(3 or 5 as of december 2008)
+Mott-Schottky analysis polynomial order middle :  2	(1 or 2 as of december 2008)
+Mott-Schottky analysis polynomial order edges:  1	(1 or 2 as of december 2008)
+Mott-Schottky analysis epsilon of layer number : -1
+Mott-Schottky analysis defect number :  0
+Mott-Schottky analysis level number :  0
+Mott-Schottky analysis eh type :  1
+Mott-Schottky analysis constant epsilon :   10.00000000
+Mott-Schottky analysis epsilon(x) mode for NW :  0
+Mott-Schottky analysis smooth epsilon for NW :  0
+
+
+back contact
+
+flatband : 0 (1: flatband contact imposed; 0: fixed Phi_m value)
+recalculate : 0 (1 = do or 0 = do not recalculate phi_m to set flatband in each batch step)
+Fi_m :   5.000000 [eV]
+Sn :  7.000e+03 [m/s]
+Sp :  1.000e+05 [m/s]
+Tunneling to contact: 0 (0: no tunneling, 1: with tunneling)
+Relative electron mass :  1.00e+00
+Relative hole mass :  1.00e+00
+
+
+layer
+
+name : MAPbI3
+d : 5.375e-07 [m]
+composition grading :	  0.00000	  0.00000	  0.00000	  0.00000	  0.00000	  0.00000	  0.00000	 0	 1	[-]
+v_th_n :	 1.000e+05	 1.000e+05	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+05	 1.000e+05	 0	 0	[m/s]
+v_th_p :	 1.000e+05	 1.000e+05	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+05	 1.000e+05	 0	 0	[m/s]
+eps :	     6.500000	    10.000000	    10.000000	    10.000000	    10.000000	     6.500000	     6.500000	 1	 0	[-]
+chi :	  3.622000	  4.500000	  1.000000	  1.000000	  1.000000	  3.622000	  3.622000	 1	 0	[eV]
+Eg :	  1.961000	  1.961000	  0.500000	  1.000000	  1.000000	  1.961000	  1.961000	 0	 0	[eV]
+Nc :	 1.660000e+25	 1.000000e+25	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.660000e+25	 1.660000e+25	 1	 0	[/m^3]
+Nv :	 5.410000e+25	 1.000000e+25	 1.000000e+01	 1.000000e+01	 1.000000e+01	 5.410000e+25	 5.410000e+25	 1	 0	[/m^3]
+mu_n :	 5.000000e-03	 5.000000e-03	 1.000000e-03	 1.000000e+00	 1.000000e+00	 5.000000e-03	 5.000000e-03	 1	 0	[m^2/Vs]
+mu_p :	 5.000000e-03	 5.000000e-03	 1.000000e-03	 1.000000e+00	 1.000000e+00	 5.000000e-03	 5.000000e-03	 1	 0	[m^2/Vs]
+Tunneling in layer: 0 (0: no tunneling, 1: with tunneling)
+Relative electron mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+Relative hole mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+K_rad :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^3/s]
+c_n_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^6/s]
+c_p_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^6/s]
+Na(uniform) :	 1.000000e+24	 1.000000e+24	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+24	 1.000000e+24	 0	 2	[/m^3]
+Nd(uniform) :	 1.000000e+24	 1.000000e+24	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+24	 1.000000e+24	 0	 2	[/m^3]
+absorption grading :	  632.32	  670.26	  250.00	  250.00	    0.00	    1.20	    1.20	 7	 0	[nm]
+absorptionmodel pure A material (y=0) : from file
+absorptionfile pure A material (y=0) : perovskite CH3NH3PbI3.abs
+absorption pure B material (y=1), model : coefficients A and B (line inserted for compatibility with SCAPS until 3.3.06)
+pure B material (y=1), A : 7.141e+06 [/(m*sqrt(eV))] (line inserted for compatibility with SCAPS until 3.3.06)
+pure B material (y=1), B : 0.000e+00 [sqrt(eV)/m] (line inserted for compatibility with SCAPS until 3.3.06)
+absorption pure B material (y=1), model : from model
+absorption model B, model : sqrt(hv-Eg) law (SCAPS traditional)
+absorption model B, value of parameter 1 :   1.000000e+05
+absorption model B, value of parameter 2 :   0.000000e+00
+
+srhrecombination
+
+type : neutral ( 1 level(s) )
+energy distribution : gauss
+Reference for defect energy :  1 ; 0 = above EV (SCAPS<2.7); 1 = above Ei; 2 = below EC
+Ekar :  0.1000 [eV]
+Nt(uniform) :	 3.000000e+20	 1.000000e+20	 1.000000e+20	 1.000000e+00	 1.000000e+00	 3.000000e+20	 3.000000e+20	 0	 2	[/m^3]
+profile : homogenous
+Lkar : 1.000e+00 [m]
+Nleft : 1.693e+21 [/m^3 eV]
+Nright : 1.693e+21 [/m^3 eV]
+leveltype : neutral	
+sigma_n : 2.000e-19	[m^2]
+sigma_p : 2.000e-19	[m^2]
+Et :   0.000	[eV]
+
+interface properties
+
+interfacename : 
+Intraband tunneling : 0 (0: no tunneling, 1: with tunneling)
+Relative electron mass :  1.00e+00
+Relative hole mass :  1.00e+00
+
+
+layer
+
+name : TiO2
+d : 5.000e-08 [m]
+composition grading :	  0.00000	  0.00000	  0.00000	  0.00000	  0.00000	  0.00000	  0.00000	 0	 1	[-]
+v_th_n :	 1.000e+05	 1.000e+05	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+05	 1.000e+05	 0	 0	[m/s]
+v_th_p :	 1.000e+05	 1.000e+05	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+05	 1.000e+05	 0	 0	[m/s]
+eps :	     9.000000	    10.000000	    10.000000	    10.000000	    10.000000	     9.000000	     9.000000	 1	 0	[-]
+chi :	  4.000000	  4.500000	  1.000000	  1.000000	  1.000000	  4.000000	  4.000000	 1	 0	[eV]
+Eg :	  3.200000	  3.200000	  0.500000	  1.000000	  1.000000	  3.200000	  3.200000	 0	 0	[eV]
+Nc :	 2.000000e+23	 1.000000e+25	 1.000000e+01	 1.000000e+01	 1.000000e+01	 2.000000e+23	 2.000000e+23	 1	 0	[/m^3]
+Nv :	 6.000000e+23	 1.000000e+25	 1.000000e+01	 1.000000e+01	 1.000000e+01	 6.000000e+23	 6.000000e+23	 1	 0	[/m^3]
+mu_n :	 1.000000e-02	 5.000000e-03	 1.000000e-03	 1.000000e+00	 1.000000e+00	 1.000000e-02	 1.000000e-02	 1	 0	[m^2/Vs]
+mu_p :	 2.500000e-03	 5.000000e-03	 1.000000e-03	 1.000000e+00	 1.000000e+00	 2.500000e-03	 2.500000e-03	 1	 0	[m^2/Vs]
+Tunneling in layer: 0 (0: no tunneling, 1: with tunneling)
+Relative electron mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+Relative hole mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+K_rad :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^3/s]
+c_n_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^6/s]
+c_p_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^6/s]
+Na(uniform) :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 2	[/m^3]
+Nd(uniform) :	 1.750000e+23	 1.750000e+23	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.750000e+23	 1.750000e+23	 0	 2	[/m^3]
+absorption grading :	  387.49	  387.49	  250.00	  250.00	    0.00	    1.20	    1.20	 7	 0	[nm]
+absorptionmodel pure A material (y=0) : from file
+absorptionfile pure A material (y=0) : TiO2_SWCNT.abs
+absorption pure B material (y=1), model : coefficients A and B (line inserted for compatibility with SCAPS until 3.3.06)
+pure B material (y=1), A : 5.590e+06 [/(m*sqrt(eV))] (line inserted for compatibility with SCAPS until 3.3.06)
+pure B material (y=1), B : 0.000e+00 [sqrt(eV)/m] (line inserted for compatibility with SCAPS until 3.3.06)
+absorption pure B material (y=1), model : from model
+absorption model B, model : sqrt(hv-Eg) law (SCAPS traditional)
+absorption model B, value of parameter 1 :   1.000000e+05
+absorption model B, value of parameter 2 :   0.000000e+00
+
+
+front contact
+
+flatband : 0 (1: flatband contact imposed; 0: fixed Phi_m value)
+recalculate : 0 (1 = do or 0 = do not recalculate phi_m to set flatband in each batch step)
+Fi_m :   4.400000 [eV]
+Sn : 1.000e+05 [m/s]
+Sp : 1.000e+03 [m/s]
+Tunneling to contact: 0 (0: no tunneling, 1: with tunneling)
+Relative electron mass :  1.00e+00
+Relative hole mass :  1.00e+00
+
+
+working point
+
+illuminated from : right
+internal Rfront :   0.00000000
+internal Tfront :  1.0000e+00
+Series resistance :  1 (1: Rs enabled; 0: Rs disabled)
+Rs [Ohm.m2] :   1.000000e-05
+Shunt conductance :  1 (1: Gsh enabled; 0: Gsh disabled)
+Gsh [S/m2] :   1.356852e+01
+voltage V applied to : -1 (+1: right contact; -1: left contact)
+cell reference system :  0 (1: as a consumer (consumed power = +VJ; 0: as a generator (generated power = +VJ) )

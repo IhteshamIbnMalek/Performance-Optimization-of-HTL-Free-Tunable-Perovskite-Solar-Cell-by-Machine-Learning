@@ -1,0 +1,95 @@
+> SCAPS 3.3.09 ELIS-UGent: Version scaps3309.exe, dated 18-12-2020, 16:03:28
+> SCAPS Batch Settings file, saved on 	19-05-2025 at 02:15:01
+> problem definition file loaded :
+> e:\PSC_HTL_free_opt_model.def
+> last saved: 	19-05-2025 at 02:12:41
+> 
+
+batch display mode = not suppressed
+
+Batch parameter 0 :
+
+Label 1 : layer 1
+Label 2 : bandgap
+Label 3 : nihil
+Label 4 : nihil
+simultaneous :  0
+values from a list :  1
+logarithmic variation :  0
+values are file names :  0
+number of parameters :   11
+list of parameters saved :  0
+parameter   0:   1.72850000e+00
+parameter   1:   1.75000000e+00
+parameter   2:   1.77210000e+00
+parameter   3:   1.79460000e+00
+parameter   4:   1.81730000e+00
+parameter   5:   1.84010000e+00
+parameter   6:   1.86280000e+00
+parameter   7:   1.88530000e+00
+parameter   8:   1.90750000e+00
+parameter   9:   1.92910000e+00
+parameter  10:   1.95000000e+00
+
+Batch parameter 1 :
+
+Label 1 : layer 1
+Label 2 : electron affinity
+Label 3 : nihil
+Label 4 : nihil
+simultaneous :  1
+values from a list :  1
+logarithmic variation :  0
+values are file names :  0
+number of parameters :   11
+list of parameters saved :  0
+parameter   0:   3.78760000e+00
+parameter   1:   3.76890000e+00
+parameter   2:   3.74990000e+00
+parameter   3:   3.73070000e+00
+parameter   4:   3.71170000e+00
+parameter   5:   3.69290000e+00
+parameter   6:   3.67460000e+00
+parameter   7:   3.65700000e+00
+parameter   8:   3.64020000e+00
+parameter   9:   3.62450000e+00
+parameter  10:   3.61000000e+00
+
+Batch parameter 2 :
+
+Label 1 : layer 1
+Label 2 : defect 1
+Label 3 : Nt total
+Label 4 : nihil
+simultaneous :  0
+values from a list :  0
+logarithmic variation :  1
+startvalue :   1.00000000e+14
+stopvalue :   9.00000000e+14
+number of steps :    5
+
+Batch parameter 3 :
+
+Label 1 : layer 1
+Label 2 : thickness
+Label 3 : nihil
+Label 4 : nihil
+simultaneous :  0
+values from a list :  0
+logarithmic variation :  0
+startvalue :   2.50000000e-01
+stopvalue :   5.00000000e-01
+number of steps :    6
+
+Batch parameter 4 :
+
+Label 1 : layer 2
+Label 2 : ND
+Label 3 : nihil
+Label 4 : nihil
+simultaneous :  0
+values from a list :  0
+logarithmic variation :  1
+startvalue :   6.00000000e+16
+stopvalue :   1.80000000e+17
+number of steps :    5
