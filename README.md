@@ -7,12 +7,11 @@ Machine learning is used to optimize HTL-free perovskite solar cells by tuning f
 
 3. HTL_free_recorder_setup.srf includes the SCAPS recorder setup parameters (targets) used to record the corresponding performance metrics.
 
-4. Trained_4_degree_Polynomial_Regressor.pkl contains the trained 4th-degree polynomial regressor model. It predicts normalized target values (η and Δ) from normalized features. The predicted targets can be denormalized using min-max scaling. For power conversion efficiency (η), the min and max values are 10.221 and 16.701, and for degradation (Δ), they are 0.034 and 1.552.
+4. Trained_4_degree_Polynomial_Regressor.pkl contains the trained 4th-degree polynomial regressor model. Upload this file to the session storage in Google Colab. Then, use the script PR4_model_prediction.py to predict the target values for efficiency and degradation.
 
-5. Trained_MLP_Classifier.h5 contains the trained multilayer perceptron (MLP) classifier, which can be used to determine whether given fabrication parameters lead to superior performance.
+5. Trained_MLP_Classifier.h5 contains the trained multilayer perceptron (MLP) classifier, which can similarly be used to determine whether given fabrication parameters lead to superior performance.
 
 6. PSC_HTL_free_Dataset_IIM.xlsx contains the dataset of 1650 samples, with the following features: EG (eV), EA (eV), x (%), NABS (cm-3), TABS (μm), NETL (cm-3); and the following targets: JSC (mA/cm²), VOC (V), FF (%), η (%), and Δ50 (%).
 
 Citation
-If you find this data helpful, please cite:
-"Simultaneous Optimization of Efficiency and Degradation in Tunable HTL-Free Perovskite Solar Cells with MWCNT-Integrated Back Contact Using a Machine Learning-Derived Polynomial Regressor."
+If you find this data helpful, please cite: "Simultaneous Optimization of Efficiency and Degradation in Tunable HTL-Free Perovskite Solar Cells with MWCNT-Integrated Back Contact Using a Machine Learning-Derived Polynomial Regressor." DOI: https://doi.org/10.48550/arXiv.2505.18693
