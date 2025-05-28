@@ -11,7 +11,7 @@ Machine learning is used to optimize HTL-free perovskite solar cells by tuning f
 
 5. Trained_MLP_Classifier.h5 contains the trained multilayer perceptron (MLP) classifier, which can similarly be used to determine whether given fabrication parameters lead to superior performance.
 
-6. PSC_HTL_free_Dataset_IIM.xlsx contains the dataset of 1650 samples, with the following features: EG (eV), EA (eV), x (%), NABS (cm-3), TABS (μm), NETL (cm-3); and the following targets: JSC (mA/cm²), VOC (V), FF (%), η (%), and Δ50 (%).
+6. PSC_HTL_free_Dataset_IIM.xlsx contains the dataset of 1650 samples, with the following features: x (%), NABS (cm-3), TABS (μm), NETL (cm-3); and the following targets: JSC (mA/cm²), VOC (V), FF (%), η (%), and Δ50 (%).
 
 Citing our work:
 If you use our generated data and/or find the code useful, cite our preprint: 
