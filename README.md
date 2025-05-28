@@ -13,5 +13,19 @@ Machine learning is used to optimize HTL-free perovskite solar cells by tuning f
 
 6. PSC_HTL_free_Dataset_IIM.xlsx contains the dataset of 1650 samples, with the following features: EG (eV), EA (eV), x (%), NABS (cm-3), TABS (μm), NETL (cm-3); and the following targets: JSC (mA/cm²), VOC (V), FF (%), η (%), and Δ50 (%).
 
-Citation
-If you find this data helpful, please cite: "Simultaneous Optimization of Efficiency and Degradation in Tunable HTL-Free Perovskite Solar Cells with MWCNT-Integrated Back Contact Using a Machine Learning-Derived Polynomial Regressor." DOI: https://doi.org/10.48550/arXiv.2505.18693
+Citing our work:
+If you use our generated data and/or find the code useful, cite our preprint: 
+ 
+Ihtesham Ibn Malek, Hafiz Imtiaz, and Samia Subrina. “Simultaneous Optimization of Efficiency and Degradation in Tunable HTL-Free Perovskite Solar Cells with MWCNT-Integrated Back Contact Using a Machine Learning-Derived Polynomial Regressor.” (2025), DOI: https://doi.org/10.48550/arXiv.2505.18693.
+ 
+BibTex:
+ 
+@misc{malek2025simultaneouso,
+      title={Simultaneous Optimization of Efficiency and Degradation in Tunable HTL-Free Perovskite Solar Cells with MWCNT-Integrated Back Contact Using a Machine Learning-Derived Polynomial Regressor}, 
+      author={Ihtesham Ibn Malek and Hafiz Imtiaz and Samia Subrina},
+      year={2025},
+      eprint={2505.18693},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.18693}, 
+}
